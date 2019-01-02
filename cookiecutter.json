@@ -1,0 +1,7 @@
+{
+    "docker_name": "mydocker",
+    "github_project_name": "docker-{{cookiecutter.docker_name}}",
+    "github_user": "user", 
+    "docker_hub_user": "{{cookiecutter.github_user}}",
+    "base_image": "alpine"
+}
